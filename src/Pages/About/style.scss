@@ -1,0 +1,131 @@
+.about-blok{
+    width: 100%;
+    height: max-content;
+
+.about-as{
+    width: 100%;
+    height: max-content;
+    background-color: #59ab6e;
+   padding: 150px 0 150px 0;
+   display: flex;
+
+
+
+
+.about-titles{
+    width: 85%;
+    height: max-content;
+    margin: 0 auto;
+    @media screen and (max-width:900px) {
+        flex-direction: column;
+    }
+
+.title-left{
+    width: 65%;
+
+    @media screen and (max-width:900px) {
+        width: 80%;
+        margin: 40px auto;
+    }
+   
+
+.about-title{
+    font-size: 38px;
+    color: snow;
+}
+.about-text{
+    font-size: 17px ;
+    color: snow;
+    font-weight: 300 ;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+}
+.title-img{
+    width: 30%;
+    height: 350px;
+    background-image: url('../../../public/img/about-hero.svg');
+    @media screen and (max-width:900px) {
+        width: 80%;
+        height: 400px;
+        margin: 40px auto;
+    }
+}
+}
+
+
+
+}
+
+.servises{
+    width: 85%;
+    margin: 0 auto;
+    background-color: snow;
+    padding: 100px 0 100px 0;
+
+
+.servises-titles{
+    font-size: 35px;
+    font-weight: 200;
+    color:black;
+    text-align: center;
+}
+
+.services-text{
+    width: 50%;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    margin: 15px auto 50px auto;
+}
+
+.about-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: max-content;
+
+  
+}
+
+}
+.brands{
+    width: 100%;
+    background-color:  #e9eef5;
+    padding: 100px 0 100px 0;
+
+.brands-title{
+    font-size: 48px;
+    color: #343a40;
+    font-weight: 200;
+}
+
+.brands-text{
+    width: 45%;
+    margin: 15px auto;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+}
+
+.about-slide{
+    width: 65%;
+    height: max-content;
+    margin: 50px auto;
+  padding-bottom: 50px;
+   
+}
+.slick-next:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: 0.75;
+    color: black;
+  }
+  .slick-prev:before {
+    font-size: 20px;
+    color: black;
+  }
+}
+

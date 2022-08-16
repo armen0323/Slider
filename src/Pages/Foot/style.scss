@@ -1,0 +1,184 @@
+.foot-blok{
+    width: 100%;
+    background-color: #212934;
+    
+    
+
+
+.foot-info{
+    width: 85%;
+    border-bottom: 1px solid #2d343f;
+    margin: 0 auto;
+  
+    
+.foot-titles{
+    width: 100%;
+    height: max-content;
+    
+
+@media screen and (max-width:768px) {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+   
+.foot-title{
+    width: 32%;
+    font-size: 33px;
+    font-weight: 100;
+    color: snow;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+
+
+}
+
+.foot-item{
+
+
+
+.foot-lists{
+    width: 32%;
+    border-top: 1.5px solid #2d343f;
+    margin-bottom: 35px;
+    @media screen and (max-width:768px) {
+        width: 90%;
+        
+        
+        
+    }
+    
+
+    .foot-one{
+        width: 90%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        
+        
+        
+    
+    .foot-logo{
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        color: #cfd6e1;
+       
+    }
+    .foot-sec{
+        width: 100%;
+        margin-left: 10px;
+        font-size: 17px;
+        font-weight: 100;
+        color: snow;
+        cursor: pointer;
+    }
+    .foot-sec:hover{
+        color: green;
+    }
+    }
+
+    
+
+
+.foot-list{
+    font-size: 17px;
+    font-weight: 100;
+    color: snow;
+    list-style-type: none;
+    padding-top: 15px;
+
+}
+.foot-list:hover{
+    color: green;
+    cursor: pointer;
+}
+}
+
+}
+
+
+}
+
+
+.footer-info{
+    width: 85%;
+    padding: 30px 0;
+   margin: 0 auto;
+   align-items: center;
+
+   
+@media screen and (max-width:768px) {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.footer-left{
+    width: 20%;
+    align-items: center;
+    @media screen and (max-width:768px) {
+        width: 50%;
+        margin: 0 auto;
+        
+        
+    }
+.footer-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border:  1px solid rgb(48, 48  , 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: snow;
+   
+    
+   
+}
+.footer-logo:hover{
+    background-color: snow;
+    color: black;
+}
+
+
+}
+.footer-rigth{
+    width: 25%;
+    // height: 45px;
+    @media screen and (max-width:768px) {
+        width: 90%;
+        margin: 50px auto;
+        
+        
+    }
+   
+.foot-input{
+    width: 70%;
+    padding: 10px 10px;
+    border-radius: 10px  0 0 10px;
+}
+.foot-btn{
+    width: 100px;
+    background-color: green;
+    color: snow;
+    border-radius: 0 10px 10px 0;
+}
+
+}
+
+    
+}
+
+}

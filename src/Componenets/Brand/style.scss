@@ -1,0 +1,8 @@
+.brand-blok{
+    width: 135px;
+    height: 80px;
+   filter: grayscale(100%);
+   &:hover{
+    filter: grayscale(0%);
+}
+}

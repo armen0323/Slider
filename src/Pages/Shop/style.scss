@@ -1,0 +1,126 @@
+.about-blok{
+    width: 100%;
+    background-color: #fff;
+
+.shop{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 40px;
+    
+@media screen and (max-width:1000px) {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.shop-left{
+    width: 27%;
+    
+.shop-title{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+
+}
+.shop-rigth{
+    width: 70%;
+    position: relative;
+
+    @media screen and (max-width:1000px) {
+       width: 100%;
+        
+    }
+.shop-rigth-title{
+    width: 100%;
+    display: flex;
+    @media screen and (max-width:1000px) {
+        margin-top: 35px;
+        flex-direction: column;
+         
+     }
+    
+
+.rigth-title{
+    font-size: 22px;
+    font-weight: 200;
+}    
+.shop-rigth-div{
+    width: 50%;
+    height: max-content;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+  
+    background-color: snow;
+    display: flex;
+    @media screen and (max-width:1000px) {
+        width: 90%;
+        margin-top: 50px;
+       
+    }
+   
+    
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+}
+.shop-people{
+    width: 100%;
+   margin: 35px 0 35px 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   .shop-page{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+.page-list{
+    width: 60px;
+    height: 50px;
+    background-color:snow ;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 1px 0 lightgray;
+    cursor: pointer;
+
+}
+.one-page{
+    background-color: green;
+    color: snow;
+    opacity: 0.6;
+    
+}
+
+.page-list:hover{
+    background-color: green;
+    color: snow;
+    opacity: 0.6;
+}
+
+}  
+  
+}
+
+}
+
+}
+
+}

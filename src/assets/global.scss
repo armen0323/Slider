@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto_Serif/static/RobotoSerif/RobotoSerif-Regular.ttf);
+}
+.g-justify-align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.g-align-center{
+    display: flex;
+    align-items: center;
+}
+.g-justify-betwen{
+    display: flex;
+    justify-content: space-between;
+}
+.g-justify-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+.g-text-center{
+    text-align: center;
+}
+.g-back-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.g-justify-around{
+    display: flex;
+    justify-content: space-around;
+}
+.g-flex-colume{
+    display: flex;
+    flex-direction: column;
+}
+.g-list-none{
+    list-style-type: none;
+}
+.g-pointer{
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.item-blok{
+    width: 23%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (max-width:1000px) {
+        width: 60%;
+        margin: 70px auto;
+        
+    }
+    @media screen and (max-width:550px) {
+        width: 80%;
+         
+     }
+
+.item-img{
+    width: 100%;
+    min-height: 280px;
+    border-radius: 50%;
+    @media screen and (max-width:1000px) {
+       height: 350px;
+        
+    }
+  
+   
+}
+.item-name{
+    font-size: 25px;
+    margin-top: 20px;
+}
+    
+.item-btn{
+    width: 35%;
+    height: 45px;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    color: snow;
+    margin-top: 20px;
+    
+}
+
+}

@@ -1,0 +1,43 @@
+.ser-block{
+    width: 24%;
+    height: max-content;
+    background-color: snow;
+    padding-bottom: 40px;
+    border-radius: 7px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    &:hover{
+        background-color: #59ab6e;
+        .ser-logo{
+            color: snow;
+        }
+        .ser-title{
+            color: snow;
+        }
+    }
+     
+    @media screen and (max-width:1000px) {
+        width: 48%;
+        margin-top: 50px;
+       
+    }
+    @media screen and (max-width:700px) {
+        width: 90%;
+        margin: 40px auto;
+       
+    }
+.ser-logo{
+    width: 75px;
+    height: 75px;
+    font-size: 75px;
+    color: #59ab6e;
+   
+    margin: 50px auto 30px auto;
+}
+
+.ser-title{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+}

@@ -1,0 +1,90 @@
+.people-blok{
+    width: 32%;
+    border: 1px solid rgba(0,0,0,.125);
+   margin-bottom: 25px;
+   box-shadow: 0 3px 8px 0 lightgray;
+
+    &:hover{
+        
+        .people-img{
+            filter: brightness(70%);
+
+            .people-logo{
+                display: flex;
+            }
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        width: 48%;
+        margin-top: 50px;
+       
+    }
+    @media screen and (max-width:500px) {
+        width: 90%;
+        margin-top: 50px;
+       
+    }
+
+.people-img{
+    width: 100%;
+    height: 360px;
+    border: 1px solid snow;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width:500px) {
+       background-position: top;
+       
+    }
+
+.people-logo{
+    position: absolute;
+    width: 40px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+
+
+.p-logo{
+width: 37px;
+height: 37px;
+background-color: #59ab6e;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+color: snow;
+cursor: pointer;
+
+}
+
+}
+
+
+}
+.people-info{
+    font-size: 18px;
+    margin: 20px 0 10px 15px;
+}
+.people-xl{
+    font-size: 25px;
+    margin: 0 0 10px 15px;
+}
+.people-star{
+    width: 40%;
+    height: 15px;
+    margin: 0 auto;
+   
+}
+.people-sum{
+    width: max-content;
+    font-size: 25px;
+    margin: 10px auto;
+}
+}
